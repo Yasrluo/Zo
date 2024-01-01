@@ -15,17 +15,7 @@
       "BOT_TOKEN": {
         "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
         "value": "",
-        "required": true
-      },
-      "GIT_TOKEN": {
-        "description": "ايـــدي المطـــور - مطـــور بـــوت الميـــوزك〔 ايدي حسابك 〕..",
-        "value": "",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "ايـــدي المطـــور - مطـــور بـــوت الميـــوزك〔 ايدي حسابك 〕..",
-        "value": "",
-        "required": true
+        "required": true         
       },
       "STRING_SESSION": {
         "description": "كـــود تيـــرمكـــس - كـود جلسـة الحسـاب المساعـد لـ الميـوزك بايـروجـرام v2 مـن البـوت〔 @T66bot 〕.. ",
