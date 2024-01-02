@@ -27,11 +27,6 @@
         "description": "A Bot's token from Botfather",
         "value": "",
         "required": true
-     },
-      "GIT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "",
-        "required": false
     },
       "AUTO_LEAVING_ASSISTANT": {
         "description": "A Bot's token from Botfather",
