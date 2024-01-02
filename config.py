@@ -35,7 +35,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/coowl/Lizz",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv("GIT_TOKEN", "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")  
+GIT_TOKEN = getenv("GIT_TOKEN", "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")  
 # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/zzsvv")
