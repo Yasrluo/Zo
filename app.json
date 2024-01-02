@@ -35,7 +35,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5933682219",
+        "value": "5338950085",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -45,7 +45,7 @@
       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
-        "value": "",
+        "value": "lizmu",
         "required": false
       },
       "STRING_SESSION": {
