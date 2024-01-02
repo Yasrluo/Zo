@@ -41,7 +41,7 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("‹ اضفني الى مجموعتك ›", url=f"https://t.me/ZXXCAQPBOT?startgroup&admin=post_messages+edit_messages+delete_messages+invite_users"),
+                InlineKeyboardButton("‹ اضفني الى مجموعتك ›", url=f"https://t.me/LizMbbot?startgroup&admin=post_messages+edit_messages+delete_messages+invite_users"),
             ],
             ]
         ),
