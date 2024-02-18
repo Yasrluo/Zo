@@ -28,7 +28,7 @@ async def useradd(client, message: Message, _):
         await message.reply_text(_["sudo_8"])
 
 
-@app.on_message(command(["/delsudo", "تنزيل مطور"]) & filters.user(OWNER_ID))
+@app.on_message(command(["/delsudo", "تنزي مطور"]) & filters.user(OWNER_ID))
 @language
 async def userdel(client, message: Message, _):
     if not message.reply_to_message:
