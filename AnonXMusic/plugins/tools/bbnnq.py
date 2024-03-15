@@ -41,20 +41,28 @@ async def ahmad(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("‹ اضفني الى مجموعتك ›", url=f"https://t.me/LizMbbot?startgroup&admin=post_messages+edit_messages+delete_messages+invite_users"),
+                InlineKeyboardButton("‹ اضفني الى مجموعتك ›", url=f"https://t.me/Xurtbot?startgroup&admin=post_messages+edit_messages+delete_messages+invite_users"),
             ],
             ]
         ),
     )
 @app.on_message(command(["مطور","السورس","سورس","المطور"]))
-async def ahmad(client: Client, message: Message):
-    await message.reply_text(f"- 𝐒ᴏụʀᴄᴇ 𝐃ᴇᴠᴇʟᴏᴘᴇʀ: @Q_J_M 🧑‍💻",
+async def huhh(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/bd4a8c4bf9ad5f107a3d3.jpg",
+        caption=f"""**⩹━★⊷━⌞𝐋𝐈𝐓𝐇𝐎𝐍 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم المطور  ميوزك\nللتحدث مع مطور السورس اضغط علي الازرار بالاسفل👇\n**⩹━★⊷━⌞𝐋𝐈𝐓𝐇𝐎𝐍⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
-        [
             [
-                InlineKeyboardButton("𝙈َِ𝘼َِ𝙓", user_id=6180188617),
-                InlineKeyboardButton("برود .", url="https://t.me/zzsvv"),
-            ],
+                [
+                    InlineKeyboardButton(
+                        "𝐋𝐄𝐀𝐃𝐄𝐑 𝐒𝐀𝐃𝐃𝐀𝐌 𝐇𝐔𝐒𝐒𝐄𝐈𝐍", url=f"https://t.me/S_1_02"), 
+                 ],[
+                   InlineKeyboardButton(
+                        "★⌞𝐋𝐈𝐓𝐇𝐎𝐍⌝⚡", url=f"https://t.me/A1DIIU"),
+                ],
+
             ]
+
         ),
+
     )
