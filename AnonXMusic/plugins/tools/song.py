@@ -62,7 +62,7 @@ def song(client, message):
         message.reply_audio(
             audio_file,
             caption=rep,
-            performer="@zzsvv . برود",
+            performer="@A1DIIU . سُــــتِۅࢪيُــاެتِ •𓋾𖥆",
             thumb=thumb_name,
             title=title,
             duration=dur,
