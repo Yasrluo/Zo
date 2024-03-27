@@ -12,7 +12,7 @@ from AnonXMusic import app
 @app.on_message(command([f"غنيلي"]))
 async def ihd(client: Client, message: Message):
     rl = random.randint(3,258)
-    url = f"https://t.me/zzzssvv/{rl}"
+    url = f"https://t.me/AudiosFaeder/{rl}"
     await client.send_voice(message.chat.id,url,caption=f"🧚🏼‍♂️ ¦ تم أختياࢪ أغنية لك {message.from_user.mention}",
     reply_markup=InlineKeyboardMarkup(
             [
