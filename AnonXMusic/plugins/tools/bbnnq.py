@@ -46,23 +46,3 @@ async def ahmad(client: Client, message: Message):
             ]
         ),
     )
-@app.on_message(command(["مطور","السورس","سورس","المطور"]))
-async def huhh(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/bd4a8c4bf9ad5f107a3d3.jpg",
-        caption=f"""*# | 𝑭𝒂𝒆𝒅𝒆𝒓 |**\nمرحبا بك عزيزي {message.from_user.mention} في قسم المطور  ميوزك\nللتحدث مع مطور السورس اضغط علي الازرار بالاسفل👇\n# | 𝑭𝒂𝒆𝒅𝒆𝒓 |""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "# | 𝑭𝒂𝒆𝒅𝒆𝒓 ", url=f"https://t.me/KKKKF"), 
-                 ],[
-                   InlineKeyboardButton(
-                        "# | 𝑭𝒂𝒆𝒅𝒆𝒓 |", url=f"https://t.me/Faeder_Ch"),
-                ],
-
-            ]
-
-        ),
-
-    )
