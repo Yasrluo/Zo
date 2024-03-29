@@ -50,15 +50,15 @@ async def ahmad(client: Client, message: Message):
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/bd4a8c4bf9ad5f107a3d3.jpg",
-        caption=f"""**⩹━★⊷━⌞𝐋𝐈𝐓𝐇𝐎𝐍 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention} في قسم المطور  ميوزك\nللتحدث مع مطور السورس اضغط علي الازرار بالاسفل👇\n**⩹━★⊷━⌞𝐋𝐈𝐓𝐇𝐎𝐍⌝━⊶★━⩺**""",
+        caption=f"""*# | 𝑭𝒂𝒆𝒅𝒆𝒓 |**\nمرحبا بك عزيزي {message.from_user.mention} في قسم المطور  ميوزك\nللتحدث مع مطور السورس اضغط علي الازرار بالاسفل👇\n# | 𝑭𝒂𝒆𝒅𝒆𝒓 |""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐋𝐄𝐀𝐃𝐄𝐑 𝐒𝐀𝐃𝐃𝐀𝐌 𝐇𝐔𝐒𝐒𝐄𝐈𝐍", url=f"https://t.me/S_1_02"), 
+                        "# | 𝑭𝒂𝒆𝒅𝒆𝒓 | " فايدر "", url=f"https://t.me/KKKKF"), 
                  ],[
                    InlineKeyboardButton(
-                        "★⌞𝐋𝐈𝐓𝐇𝐎𝐍⌝⚡", url=f"https://t.me/A1DIIU"),
+                        "# | 𝑭𝒂𝒆𝒅𝒆𝒓 |", url=f"https://t.me/Faeder_Ch"),
                 ],
 
             ]
