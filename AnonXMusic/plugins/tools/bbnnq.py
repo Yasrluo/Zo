@@ -55,7 +55,7 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "# | 𝑭𝒂𝒆𝒅𝒆𝒓 | " فايدر "", url=f"https://t.me/KKKKF"), 
+                        "# | 𝑭𝒂𝒆𝒅𝒆𝒓 ", url=f"https://t.me/KKKKF"), 
                  ],[
                    InlineKeyboardButton(
                         "# | 𝑭𝒂𝒆𝒅𝒆𝒓 |", url=f"https://t.me/Faeder_Ch"),
