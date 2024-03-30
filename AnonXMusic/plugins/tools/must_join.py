@@ -9,16 +9,16 @@ async def must_join_channel(bot: Client, msg: Message):
         return
     try:
         try:
-            await bot.get_chat_member("Faeder_Ch", msg.from_user.id)
+            await bot.get_chat_member("A1DIIU", msg.from_user.id)
         except UserNotParticipant:
-            if "https://t.me/Faeder_Ch".isalpha():
-                link = "https://t.me/Faeder_Ch"
+            if "https://t.me/A1DIIU".isalpha():
+                link = "https://t.me/A1DIIU"
             else:
-                chat_info = await bot.get_chat("Faeder_Ch")
+                chat_info = await bot.get_chat("A1DIIU")
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"⌯︙عذࢪاَ عزيزي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البـوت اولآ\n⌯︙قناة البوت: @Faeder_Ch .\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
+                    f"⌯︙عذࢪاَ عزيزي ↫ {msg.from_user.mention} \n⌯︙عـليك الاشـتࢪاك في قنـاة البـوت اولآ\n⌯︙قناة البوت: @A1DIIU .\nꔹ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ꔹ",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("اضغط للأشتراك .", url=link)]
