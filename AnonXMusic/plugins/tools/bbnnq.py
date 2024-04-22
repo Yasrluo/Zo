@@ -9,11 +9,11 @@ InlineKeyboardMarkup,InlineKeyboardButton)
 from typing import Union
 from AnonXMusic import app
 
-@app.on_message(command([f"غنيلي"]))
+@app.on_message(command([f"قصيده"]))
 async def ihd(client: Client, message: Message):
-    rl = random.randint(3,258)
-    url = f"https://t.me/AudiosFaeder/{rl}"
-    await client.send_voice(message.chat.id,url,caption=f"🧚🏼‍♂️ ¦ تم أختياࢪ أغنية لك {message.from_user.mention}",
+    rl = random.randint(3,86)
+    url = f"https://t.me/QasedFaeder/{rl}"
+    await client.send_voice(message.chat.id,url,caption=f"🧚🏼‍♂️ ¦ تم أختياࢪ قصيده لك {message.from_user.mention}",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
