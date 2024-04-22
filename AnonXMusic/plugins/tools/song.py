@@ -62,7 +62,7 @@ def song(client, message):
         message.reply_audio(
             audio_file,
             caption=rep,
-            performer="@A1DIIU .سُــــتِۅࢪيُــاެتِ •𓋾𖥆",
+            performer="@L_Q7I .سُــــتِۅࢪيُــاެتِ •𓋾𖥆",
             thumb=thumb_name,
             title=title,
             duration=dur,
@@ -70,7 +70,7 @@ def song(client, message):
         m.delete()
     except Exception as e:
         m.edit(
-            f"[Victorious](t.me/A1DIIU) 💕**\n\**خطأ :** {e}"
+            f"[Victorious](t.me/L_Q7I) 💕**\n\**خطأ :** {e}"
         )
         print(e)
 
