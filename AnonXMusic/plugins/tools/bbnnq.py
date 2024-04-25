@@ -26,7 +26,7 @@ async def ihd(client: Client, message: Message):
  
 @app.on_message(command([f"قصيده"]))
 async def ihd(client: Client, message: Message):
-    rl = random.randint(3,258)
+    rl = random.randint(3,96)
     url = f"https://t.me/QasedFaeder/{rl}"
     await client.send_voice(message.chat.id,url,caption=f"🧚🏼‍♂️ ¦ تم أختياࢪ قصيده لك {message.from_user.mention}",
     reply_markup=InlineKeyboardMarkup(
