@@ -7,7 +7,6 @@ from pytgcalls.exceptions import NoActiveGroupCall
 from config import START_IMG_URL
 import config
 from AnonXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from AnonXMusic.core.call import Anon
 from AnonXMusic.utils import seconds_to_min, time_to_seconds
 from AnonXMusic.utils.channelplay import get_channeplayCB
 from AnonXMusic.utils.database import is_video_allowed
